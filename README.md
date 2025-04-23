@@ -37,53 +37,59 @@ En el documento **trabajo_completo.ipynb** hemos seguido los siguientes pasos:
 
 ---
 
-## Conspiraciones estudiadas y guía para entender el grafo
+## Análisis de Comunidades (“Social Virus”)
 
-La visualización “Social Virus” revela seis comunidades principales en nuestro grafo de usuarios:
+La visualización revela **seis clústeres** principales en nuestro grafo de usuarios, cada uno identificado por color y temática:
 
-| Clúster        | Color    | Temática                         | Características clave                                                                                               |
-|----------------|----------|----------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Aliens**     | Rosa     | Teorías extraterrestres          | - **Más numeroso**: congrega al mayor número de usuarios.  
-                                                - **Alta densidad interna**: usuarios muy interconectados.  
-                                                - **Puente** natural hacia “Antivacunas” y “Simulación”.                           |
-| **Simulación** | Verde    | Teoría del universo simulado     | - **Segundo en tamaño**.  
-                                                - **Fuerte solapamiento** con “Aliens” y “Chemtrails”: comparten usuarios que desconfían de la realidad oficial. |
-| **Chemtrails** | Naranja  | Avión-pesticida en el cielo      | - Comunidad mediana.  
-                                                - **Puentes** claros hacia “Aliens” y “FlatEarth”.  
-                                                - Usuarios que también discuten “New World Order” y “Epstein”.            |
-| **Flatearth**  | Cian     | Terraplanismo                    | - Agrupación más aislada, con conexiones moderadas hacia “Chemtrails”.  
-                                                - Usuarios estrictos: intercambio limitado con otras teorías.                    |
-| **Antivacunas**| Rojo     | Conspiraciones sobre vacunas     | - **Más periférico** y pequeño en número.  
-                                                - Conexiones de salida hacia “Aliens” (usuarios puente) más que entrada.        |
-| **Epstein**    | Gris     | Teorías sobre Jeffrey Epstein    | - **Menor tamaño**; comunidad muy focalizada.  
-                                                - Intersecta sobre todo con “Chemtrails” y “Simulación”.                    |
+| Clúster        | Color    | Temática                          |
+|----------------|----------|-----------------------------------|
+| **Aliens**     | Rosa     | Teorías extraterrestres           |
+| **Simulación** | Verde    | Universo simulado                 |
+| **Chemtrails** | Naranja  | Estelas químicas en la atmósfera  |
+| **FlatEarth**  | Cian     | Terraplanismo                     |
+| **Antivacunas**| Rojo     | Conspiraciones sobre vacunas      |
+| **Epstein**    | Gris     | Teorías políticas (caso Epstein)  |
+| **New World Order** | Amarillo | Gobierno mundial secreto     |
+---
 
-### Insights clave
+### Características clave por clúster
 
-1. **Aliens y Simulación** dominan la red  
-   - Su gran tamaño y densidad los convierten en los nodos centrales del discurso conspirativo.  
-   - Actúan de **hubs** desde donde emergen puentes a otras narrativas.
+- **Aliens**  
+  - **Más numeroso**: agrupa al mayor número de usuarios.  
+  - **Alta densidad interna**: usuarios muy interconectados.  
+  - **Puente** hacia *Antivacunas* y *Simulación*.
 
-2. **Chemtrails como conector**  
-   - Sirve de intermediario entre grupos de “realidades alteradas” (Aliens, Simulación) y teorías más “terrestres” (FlatEarth).  
-   - Suele compartir usuarios con Epstein y New World Order, ampliando su alcance.
+- **Simulación**  
+  - **Segundo en tamaño**.  
+  - **Solapamiento fuerte** con *Aliens* y *Chemtrails*.  
+  - Usuarios escépticos de la “realidad oficial”.
 
-3. **FlatEarth y Antivacunas, más aislados**  
-   - Terraplanismo mantiene una comunidad propia con poca mezcla.  
-   - Antivacunas, aunque pequeña, está conectada a “Aliens” por un núcleo de usuarios que migran de la especulación cósmica a la desconfianza médica.
+- **Chemtrails**  
+  - **Tamaño medio**.  
+  - Conecta *Aliens* con *FlatEarth*.  
+  - Enlace con narrativas de “New World Order” y *Epstein*.
 
-4. **Epstein, comunidad de nicho**  
-   - Aunque es el clúster minoritario, su presencia indica que temas de conspiración política (caso Epstein) también forman parte del ecosistema, solapándose principalmente con “Chemtrails” y “Simulación”.
+- **FlatEarth**  
+  - Comunidad **relativamente aislada**.  
+  - Conexiones moderadas hacia *Chemtrails*.  
+  - Intercambio limitado con otras teorías.
+
+- **Antivacunas**  
+  - **Más periférico** y pequeño en número.  
+  - Conexiones de salida principalmente hacia *Aliens*.  
+  - Puente en la transición de mitos cósmicos a narrativas médicas que ponen en peligro la salud.
+
+- **Epstein**  
+  - **Menor tamaño**; comunidad muy focalizada.  
+  - Solapamiento con *Chemtrails* y *Simulación*.
+
+- **New World Order**  
+  - Usuarios que creen en un gobierno global oculto.  
+  - Se solapa con **Chemtrails** y **Epstein**.
 
 ---
 
-**Conclusión**:  
-Cada clúster representa una narrativa conspirativa distinta, con tamaños y grados de interconexión propios.  
-- **Aliens** y **Simulación** son los motores de la red,  
-- **Chemtrails** actúa como puente,  
-- **FlatEarth**, **Antivacunas** y **Epstein** son comunidades más especializadas.  
-
-Este mapa nos ayuda a entender no solo qué teorías son más populares, sino también **cómo** y **por dónde** circula la información que las conecta.  
-
-
-
+**Conclusión rápida**  
+- *Aliens* y *Simulación* forman el **núcleo** de la red, teorías más famosas y más debate generan (público especializado y fanáticos)  
+- *Chemtrails* actúa como **intermediario** entre grupos de “realidades alteradas” y teorías terrestres.  
+- *FlatEarth*, *Antivacunas* y *Epstein* representan comunidades más **especializadas**, mostrando cómo las creencias “inofensivas” pueden ramificarse hacia conspiraciones con impacto real en la salud.
