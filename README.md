@@ -2,7 +2,7 @@
 
 ## Autores: Miguel Morera y Héctor Sancho, 2º CDIA UPM
 
-El siguiente trabajo fue llamado **Social Virus** y el objetivo es el de estudiar cómo creencias aparentemente inofensivas en la red puede llevar a los usuarios 
+El siguiente trabajo fue llamado **Social Virus** y el objetivo es el de estudiar cómo creencias aparentemente inofensivas en la red puede llevar a los usuarios a narrativas que puedan poner en peligro su salud. El análisis se hizo a partir de un grafo de 30k nodos creado por nosotros gracias a la librería PRAW y la API de Reddit.
 
 En el documento **trabajo_completo.ipynb** hemos seguido los siguientes pasos:
 
